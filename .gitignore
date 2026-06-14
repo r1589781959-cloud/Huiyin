@@ -1,33 +1,50 @@
-# Private project notes
+# Private notes
+/private/
 /关于陪伴型ai项目的对话.md
 /启动命令：.txt
 /回音_PRD_项目计划.md
 /项目进度与AI协同交接日志.md
-/private/
 
-# Secrets and local configuration
+# Secrets
 .env
 .env.*
 !.env.example
+huiyin/.env
+huiyin/.env.*
+!huiyin/.env.example
 
 # Runtime data
 data/
+huiyin/data/
+runtime/
+huiyin/runtime/
+storage/
+huiyin/storage/
+
+# Databases and logs
 *.db
 *.sqlite
 *.sqlite3
 *.log
+logs/
+huiyin/logs/
 
-# Python environments and caches
+# Python
 venv/
-.venv/
+.venv
 env/
+huiyin/venv/
+huiyin/.venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Editor and operating-system files
+# Build and system
+build/
+dist/
+*.egg-info/
 .idea/
 .vscode/
 .DS_Store

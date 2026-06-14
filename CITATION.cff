@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Huiyin / 回音: An Emotional Companion AI Agent"
+message: "If you use this project, please cite it as below."
+type: software
+authors:
+  - name: "r1589781959-cloud"
+year: 2026
+license: Apache-2.0
+repository-code: "https://github.com/r1589781959-cloud/Huiyin"
+abstract: "An experimental emotional companion AI agent project exploring natural conversation, long-term memory, multi-model integration, local-first data storage, and proactive companionship."
